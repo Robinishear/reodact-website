@@ -1,305 +1,100 @@
-🛒 QuickCart — Modern E-Commerce Platform
+# 🛒 QuickCart
 
 <p align="center">
-  <strong>A clean, modern and responsive e-commerce platform built with Next.js and React.</strong>
+  <strong>A modern and responsive full-stack e-commerce platform built with Next.js and React.</strong>
 </p>
 
 <p align="center">
-  Browse products • Discover deals • Manage products • Manage orders
+  Browse Products • Discover Deals • Manage Products • Manage Orders
 </p>
 
-📌 Overview
+---
 
-QuickCart is a modern e-commerce web application focused on delivering a smooth and simple shopping experience for customers while providing sellers with a dedicated dashboard to manage products and orders.
+## 📌 Overview
 
-The interface is designed with a clean layout, modern product cards, promotional banners, featured collections, and a seller management panel.
+**QuickCart** is a modern e-commerce web application designed to provide customers with a smooth, simple, and convenient online shopping experience.
 
-✨ Features
+The platform features a clean and responsive storefront where customers can explore popular products, discover featured collections, view product details, check ratings and prices, and easily browse available products.
 
-🛍️ Customer Experience
+QuickCart also includes a dedicated **Seller Dashboard** that allows sellers to manage their products, pricing, product images, and customer orders from one centralized interface.
 
-🏠 Modern home page
+---
 
-🎯 Promotional hero slider
+## ✨ Features
 
-🔥 Popular products section
+### 🛍️ Customer Experience
 
-⭐ Featured products section
+- 🏠 Modern and responsive home page
+- 🎯 Promotional hero slider
+- 🔥 Popular products section
+- ⭐ Featured products section
+- 🛒 Product browsing
+- ❤️ Wishlist / favorite products
+- ⭐ Product ratings
+- 💰 Regular and offer pricing
+- 🛍️ Buy Now functionality
+- 📧 Newsletter subscription
+- 📱 Responsive design
+- 🔎 Easy product discovery
 
-🛒 Product browsing
+### 🏪 Seller Dashboard
 
-❤️ Wishlist/favorite button
+The dedicated Seller Dashboard provides an easy and organized way to manage an online store.
 
-⭐ Product ratings
+- ➕ Add new products
+- 🖼️ Upload multiple product images
+- 📝 Add product name and description
+- 🏷️ Select product category
+- 💵 Set product price
+- 🔥 Set offer price
+- 📦 Manage product list
+- 🧾 Manage customer orders
+- 🔐 Seller logout
 
-💰 Product and offer pricing
+---
 
-🛍️ Buy Now action
+## 🎨 UI & Design
 
-📱 Responsive design
+QuickCart follows a clean, modern, and minimal e-commerce design approach.
 
-📧 Newsletter subscription
+### Design Highlights
 
-📄 About Us page
+- ✨ Clean and professional interface
+- 🟠 Modern orange accent color
+- 🎨 Soft and elegant product cards
+- 📱 Fully responsive layout
+- 🖼️ Product-focused design
+- 🔘 Modern buttons and controls
+- 🏪 Simple seller dashboard
+- 📐 Spacious and organized layouts
+- ⚡ Smooth and user-friendly experience
 
-📞 Contact page
+---
 
-🏪 Seller Dashboard
+## 🧰 Tech Stack
 
-A dedicated dashboard allows sellers to manage their store from one place.
+### Frontend
 
-➕ Add new products
+- **Next.js** `15.1.6`
+- **React** `19.x`
+- **React DOM** `19.x`
+- **Tailwind CSS** `3.4.1`
 
-🖼️ Upload multiple product images
+### Libraries & Tools
 
-📝 Add product name
+- **React Hot Toast** `2.5.1`
+- **ESLint** `9`
+- **PostCSS** `8`
+- **Next.js Turbopack**
 
-📄 Add product description
+---
 
-🏷️ Select product category
+## 📦 Dependencies
 
-💵 Set product price
-
-🔥 Set offer price
-
-📦 Manage product list
-
-🧾 Manage orders
-
-🔐 Seller logout/authentication flow
-
-🎨 Design
-
-QuickCart follows a minimal and professional e-commerce design system.
-
-Design Highlights
-
-Clean white interface
-
-Orange primary accent
-
-Soft gray product backgrounds
-
-Rounded cards and buttons
-
-Modern typography
-
-Spacious layouts
-
-Responsive product grid
-
-User-friendly seller dashboard
-
-🧰 Technology Stack
-
-Frontend
-
-Technology
-
-Version / Usage
-
-Next.js
-
-15.1.6
-
-React
-
-19.x
-
-React DOM
-
-19.x
-
-Tailwind CSS
-
-3.4.1
-
-React Hot Toast
-
-2.5.1
-
-Development Tools
-
-ESLint 9
-
-PostCSS 8
-
-Next.js Turbopack
-
-JavaScript / JSX
-
-📦 Dependencies
-
+```json
 {
   "next": "15.1.6",
   "react": "^19.0.0",
   "react-dom": "^19.0.0",
   "react-hot-toast": "^2.5.1"
 }
-
-📁 Main Sections
-
-QuickCart
-│
-├── 🏠 Home
-│   ├── Hero Slider
-│   ├── Popular Products
-│   ├── Featured Products
-│   ├── Promotional Sections
-│   └── Newsletter
-│
-├── 🛍️ Shop
-│   └── All Products
-│
-├── ℹ️ About Us
-│
-├── 📞 Contact
-│
-└── 🏪 Seller Dashboard
-    ├── Add Product
-    ├── Product List
-    └── Orders
-
-🖼️ Application Preview
-
-🏠 Home Page
-
-The homepage contains a promotional hero banner, popular products, featured collections, and a newsletter section.
-
-🛍️ Product Listing
-
-A responsive product grid displays product images, names, ratings, descriptions, prices, and purchase actions.
-
-🏪 Seller Dashboard
-
-The seller dashboard provides a simple interface for adding products, managing the product catalog, and handling orders.
-
-🚀 Getting Started
-
-1. Clone the repository
-
-git clone YOUR_REPOSITORY_URL
-
-2. Open the project
-
-cd ecommerce-inngest
-
-3. Install dependencies
-
-Using npm:
-
-npm install
-
-Or using pnpm:
-
-pnpm install
-
-4. Start the development server
-
-npm run dev
-
-Or:
-
-pnpm dev
-
-The development server runs with Next.js Turbopack.
-
-Open the local URL shown in your terminal.
-
-📜 Available Scripts
-
-# Start development server
-npm run dev
-
-# Create production build
-npm run build
-
-# Start production server
-npm run start
-
-# Run lint
-npm run lint
-
-🔮 Future Improvements
-
-QuickCart can be extended with:
-
-🛒 Shopping cart
-
-💳 Online payment integration
-
-👤 Customer authentication
-
-🔐 Seller registration
-
-🔎 Product search
-
-🎛️ Advanced filtering
-
-↕️ Product sorting
-
-⭐ Customer reviews
-
-❤️ Persistent wishlist
-
-📦 Order tracking
-
-📊 Sales analytics
-
-📦 Inventory management
-
-🎟️ Coupon and discount system
-
-🔔 Real-time order notifications
-
-🧑‍💼 Admin dashboard
-
-🎯 Project Goals
-
-The main goals of QuickCart are:
-
-Build a modern e-commerce user interface.
-
-Provide a smooth product discovery experience.
-
-Create an easy-to-use seller dashboard.
-
-Keep product management simple and organized.
-
-Build the project using modern React and Next.js practices.
-
-Create a scalable foundation for a complete e-commerce platform.
-
-👨‍💻 Developer
-
-Md. Robin Ahmed
-
-Full-Stack Developer
-
-Passionate about building modern, scalable and user-friendly web applications.
-
-Focus Areas:
-
-Full-Stack Web Development
-
-E-Commerce Applications
-
-ERP & CRM Systems
-
-REST APIs
-
-Modern UI/UX
-
-Scalable Web Applications
-
-⭐ Support
-
-If you find this project useful or interesting, consider giving the repository a ⭐ Star.
-
-<p align="center">
-  Made with ❤️ using Next.js & React
-</p>
-
-<p align="center">
-  <strong>QuickCart — Shop Smarter. Live Better.</strong>
-</p>
