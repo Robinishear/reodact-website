@@ -1,4 +1,4 @@
-# 🛒 QuickCart
+**# 🛒 QuickCart
 
 <p align="center">
   <strong>A modern and responsive full-stack e-commerce platform built with Next.js and React.</strong>
@@ -98,3 +98,4 @@ QuickCart follows a clean, modern, and minimal e-commerce design approach.
   "react-dom": "^19.0.0",
   "react-hot-toast": "^2.5.1"
 }
+**
